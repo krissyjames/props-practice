@@ -1,6 +1,5 @@
 import React from "react";
 import "./insta.css";
-import CommentSection from "./CommentSection.js";
 import posts from "./demopost.json";
 import Post from "./InstagramPost.js";
 
@@ -24,7 +23,6 @@ function App() {
           comments={post.comments}
         />
       ))}
-      <CommentSection />
     </div>
   );
 }

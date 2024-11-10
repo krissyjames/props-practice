@@ -1,4 +1,4 @@
-import React, {Component} from 'react' 
+import React, {Component} from 'react'; 
 
 // Task 10: Refer to the module pattern we reviewed several times in class today and debug the error of this component.
 
