@@ -66,8 +66,13 @@ class InstagramPost extends Component {
                 <div className="post-actions">
                     <PostActions 
                         totalLikes={this.state.totalLikes} 
-                        liked={this.state.liked}
+                        liked={this.state.liked} 
                         saved={this.state.saved}
+                        onLike={toggleLike}
+                        toggleSave={toggleSave}
+
+                        
+
                         // Task 7: Pass down the appropriate handler callback functions the child component will need to invoke when/if things are clicked.
                     /> 
                 </div>
