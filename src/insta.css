@@ -113,3 +113,9 @@
     display:grid;
     grid-template-columns: 50% 50%;
 }
+
+@media screen and (max-width: 1024px) {
+    .app {
+    display: block;
+    }
+} 
